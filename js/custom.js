@@ -12,15 +12,13 @@ $(function () {
 	
 	"use strict";
 	
-	/* Preloader
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+	/* Preload */
 	
 	setTimeout(function () {
 		$('.loader_bg').fadeToggle();
 	}, 1500);
 	
-	/* Tooltip
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+	/* Tooltip */
 	
 	$(document).ready(function(){
 		$('[data-toggle="tooltip"]').tooltip();
@@ -28,8 +26,7 @@ $(function () {
 	
 	
 	
-	/* Mouseover
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+	/* Mouseover */
 	
 	$(document).ready(function(){
 		$(".main-menu ul li.megamenu").mouseover(function(){
@@ -57,8 +54,7 @@ $(function () {
        });
      });
 
-     /* Product slider 
-     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+     /* Product slider */
      // optional
      $('#blogCarousel').carousel({
         interval: 5000
