@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let message = document.querySelector("textarea").value;
 
         // WhatsApp number (replace with the actual number, e.g., 27612345678)
-        let phoneNumber = "27814588898";
+        let phoneNumber = "27760362836";
 
         // Format message
         let whatsappMessage = `Hello, my name is ${name}. 
