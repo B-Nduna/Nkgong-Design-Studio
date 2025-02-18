@@ -70,3 +70,32 @@ $(function () {
 
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Select the form
+    const form = document.getElementById("request");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Get form values
+        let name = document.querySelector("input[name='Name']").value;
+        let email = document.querySelector("input[name='Email']").value;
+        let phone = document.querySelector("input[name='Phone Number']").value;
+        let message = document.querySelector("textarea").value;
+
+        // WhatsApp number (replace with the actual number, e.g., 27612345678)
+        let phoneNumber = "27814588898";
+
+        // Format message
+        let whatsappMessage = `Hello, my name is ${name}. 
+        My email: ${email} 
+        My phone: ${phone} 
+        
+        Message: ${message}`;
+
+        // Encode message and open WhatsApp
+        let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+        window.open(url, "_blank");
+    });
+});
