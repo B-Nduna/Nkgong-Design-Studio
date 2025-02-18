@@ -1,7 +1,3 @@
-/*---------------------------------------------------------------------
-    File Name: custom.js
----------------------------------------------------------------------*/
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 	anchor.addEventListener('click', function (e) {
 	   e.preventDefault();
@@ -72,7 +68,6 @@ $(function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Select the form
     const form = document.getElementById("request");
 
     form.addEventListener("submit", function (event) {
@@ -84,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
         let phone = document.querySelector("input[name='Phone Number']").value;
         let message = document.querySelector("textarea").value;
 
-        // WhatsApp number (replace with the actual number, e.g., 27612345678)
         let phoneNumber = "27760362836";
 
         // Format message
@@ -94,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
         
         Message: ${message}`;
 
-        // Encode message and open WhatsApp
         let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(url, "_blank");
     });
