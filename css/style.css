@@ -676,12 +676,11 @@ button {
      padding-bottom: 30px;
 }
 
-.sketchfab-embed-wrapper iframe {
-     width: 390px; 
-     height: 390px;  
+.design_img{
+     width: 600px;
+     height: 400px;
+     
 }
-  
-
 
 /** end design section **/
 
