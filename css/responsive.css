@@ -82,21 +82,11 @@
     .navigation.navbar-dark .navbar-nav .nav-link {
         margin: 0px 12px;
     }
-    #myCarousel a.carousel-control-next {
-        right: 42.5%;
+
+    .text-bg {
+        padding-top: 200px;
     }
-    #myCarousel .carousel-control-next:hover,
-    #myCarousel .carousel-control-next:focus {
-        right: 40%;
-    }
-    #myCarousel .carousel-control-prev:hover,
-    #myCarousel .carousel-control-prev:focus {
-        left: 45.5%;
-    }
-    .text-bg h1 {
-        font-size: 60px;
-        line-height: 73px;
-    }
+
     .titlepage h2 {
         font-size: 28px;
         line-height: 23px;

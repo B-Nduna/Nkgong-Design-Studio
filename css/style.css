@@ -206,10 +206,6 @@ button {
      cursor: pointer;
 }
 
-.full {
-     float: left;
-     width: 100%;
-}
 
 .full {
      width: 100%;
@@ -265,7 +261,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0;
-     margin: 0px 40px;
+     margin: 0px 50px;
      color: #333333;
      font-size: 16px;
      line-height: 20px;
@@ -292,12 +288,16 @@ button {
 .header {
      width: 100%;
      padding: 30px 0px 30px 0px;
-     background: #fff;
+     background: transparent; 
+     position: absolute; 
+     top: 0;
+     left: 0;
+     z-index: 2;
 }
 
 .logo {
-     max-width: 15%; /* Set a percentage or specific width to control the logo size */
-     margin: 0 auto; /* Center logo horizontally */
+     max-width: 20%; 
+     margin: 0 auto; 
      display: flex;
      justify-content: center;
      align-items: center;
@@ -308,16 +308,18 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+     background: url(../images/back-1.jpg);
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
-     min-height: 804px;
+     height: 100vh;
      padding-top: 15%;
+     z-index: 1; 
 }
 
 .text-bg {
-     text-align: left;
+     text-align: right;
+     padding-top: 70px;
 }
 
 .relative {
@@ -326,38 +328,6 @@ button {
      left: 0;
      padding: 0;
      bottom: 0;
-}
-
-.text-bg h1 {
-     color: #000;
-     font-size: 85px;
-     line-height: 96px;
-     padding-bottom: 0px;
-     font-weight: bold;
-}
-
-.text-bg span {
-     line-height: 25px;
-     padding-bottom: 40px;
-     color: #fff;
-     font-size: 17px;
-     font-weight: bold;
-     display: block;
-}
-
-.text-bg .read_more {
-     max-width: 243px;
-     height: 66px;
-     padding: 17px 0;
-     background-color: #fff;
-     color: #000;
-     text-transform: uppercase;
-     font-weight: bold;
-     border-radius: 50px;
-}
-
-.text-bg .read_more:hover {
-     background-color: #0d0c0c;
 }
 
 .banner .carousel-indicators {
