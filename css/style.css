@@ -787,101 +787,10 @@ button {
 
 /** end latest_news section **/
 
-
-/** testimonial section **/
-
-.Testimonial {
-     padding-top: 80px;
-}
-
-.banner_testimonial {
-     padding: 40px 50px;
-     width: 100%;
-     background-color: #343434;
-}
-
-.text_humai {
-     margin-top: 60px;
-     text-align: left;
-     padding: 0 30px 40px 30px;
-     border: #16d316 solid 1px;
-     border-radius: 5px;
-}
-
-.text_humai span {
-     color: #fff;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     font-size: 17px;
-     line-height: 31px;
-     font-weight: bold;
-     display: block;
-}
-
-.text_humai i img {
-     margin-top: -60px;
-}
-
-.text_humai p {
-     color: #fff;
-     font-weight: 400;
-     font-size: 17px;
-     line-height: 31px;
-}
-
-.banner_testimonial .carousel-indicators {
-     display: none;
-}
-
-.pad_left0 {
-     padding-left: 0;
-}
-
-#testimon .carousel-control-prev,
-#testimon .carousel-control-next {
-     width: 83px;
-     height: 76px;
-     background: #0d0c0c;
-     opacity: 1;
-     font-size: 35px;
-     color: #fff;
-     top: 67%;
-}
-
-#testimon .carousel-control-prev:hover,
-#testimon .carousel-control-next:hover,
-#testimon .carousel-control-prev:focus,
-#testimon .carousel-control-next:focus {
-     background: #16d316;
-     color: #000;
-}
-
-#testimon a.carousel-control-prev {
-     position: absolute;
-     left: 118%;
-}
-
-#testimon a.carousel-control-next {
-     position: absolute;
-     right: -38%;
-}
-
-.pad_roght0 {
-     padding-right: 0;
-}
-
-.text_de .titlepage {
-     padding-bottom: 30px;
-}
-
-
-/** end testimonial section **/
-
-
 /** contact section **/
 
 .contact {
-     background: url(../images/conatct.jpg);
+     background: url(../images/contact.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
