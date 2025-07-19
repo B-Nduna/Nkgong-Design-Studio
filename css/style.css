@@ -308,7 +308,7 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/back-1.jpg);
+     background: url(../images/back-1.webp);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -790,7 +790,7 @@ button {
 /** contact section **/
 
 .contact {
-     background: url(../images/contact.jpg);
+     background: url(../images/contact.webp);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
